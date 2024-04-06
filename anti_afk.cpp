@@ -84,7 +84,7 @@ void Movement::AntiAfk::Run()
 
 	if (!cvar.movement.anti_afk.enable) 
 	{ 
-		Reset_AntiAfk(Initialized);
+	    Reset_AntiAfk(Initialized);
 	    return; 
 	}
 
