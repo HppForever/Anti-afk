@@ -36,7 +36,7 @@ void Movement::AntiAfk::SetMove(const char* ForwardMove, const char* BackMove, c
 	Actions::Attack(AttackReturn);
 }
 
-void Movement::AntiAfk::SetRotation(const char* LeftMove, const char* RightMove, bool RotationReturn = false, bool JumpAndDuck_Return, bool AttackReturn)
+void Movement::AntiAfk::SetRotation(const char* LeftMove, const char* RightMove, bool RotationReturn, bool JumpAndDuck_Return, bool AttackReturn)
 {
 	switch (cvar.movement.anti_afk.rotation_type)
 	{
